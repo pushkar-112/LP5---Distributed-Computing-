@@ -1,0 +1,9 @@
+mpicc a3.c -o obj
+
+mpirun -np 4 ./obj
+
+lambot
+
+
+
+sudo apt install lam4-dev
